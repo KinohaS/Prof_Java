@@ -52,4 +52,5 @@ class GoodsList {
 
 const list = new GoodsList();
 list.fetchGoods();
+// list.getCount();
 list.render();
