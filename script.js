@@ -45,7 +45,7 @@ class GoodsList {
             sum += goods.price
         });
         totalPrice.innerText = `Итого  ${sum} рублей`;
-    }*/ // Я просто не понимаю из-за чего, при добавления данного метода, все перестает работать
+    }*/ // Я просто не понимаю из-за чего, при добавления данного метода, все перестает работать.
     getCount() {
         return this.items.reduce((prev, { price }) => {
             return prev + price;
